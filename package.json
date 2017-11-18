@@ -1,0 +1,42 @@
+{
+    "name": "gulp-prettier-eslint",
+    "version": "1.0.0",
+    "description": "Gulp plugin for prettier-eslint",
+    "license": "MIT",
+    "repository": {
+        "url": "https://github.com/tiaanduplessis/gulp-prettier-eslint",
+        "type": "git"
+    },
+    "homepage": "https://github.com/tiaanduplessis/gulp-prettier-eslint",
+    "bugs": "https://github.com/tiaanduplessis/gulp-prettier-eslint",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "keywords": [
+      "gulp",
+      "gulpplugin",
+      "plugin",
+      "prettier",
+      "eslint"
+    ],
+    "scripts": {
+        "test": "jest",
+        "format": "prettier-standard index.js",
+        "start": "npm run test",
+        "precommit": "npm test",
+        "pretest": "npm run format"
+    },
+    "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
+    "dependencies": {
+        "gulp-util": "^3.0.8",
+        "prettier-eslint": "^8.2.2",
+        "through2": "^2.0.3",
+        "vinyl-sourcemaps-apply": "^0.2.1"
+    },
+    "devDependencies": {
+        "husky": "^0.14.3",
+        "jest": "^21.0.2",
+        "prettier-standard": "^6.0.0"
+    }
+}
