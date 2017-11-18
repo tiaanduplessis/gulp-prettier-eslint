@@ -1,5 +1,5 @@
 {
-    "name": "gulp-prettier-eslint",
+    "name": "@tiaanduplessis/gulp-prettier-eslint",
     "version": "1.0.0",
     "description": "Gulp plugin for prettier-eslint",
     "license": "MIT",
