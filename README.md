@@ -55,6 +55,8 @@
 
 ## Install
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/tiaanduplessis/gulp-prettier-eslint.svg)](https://greenkeeper.io/)
+
 ```sh
 $ npm install @tiaanduplessis/gulp-prettier-eslint
 # OR
