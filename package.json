@@ -30,7 +30,7 @@
     "author": "tiaanduplessis <tiaanduplessis@hotmail.com>",
     "dependencies": {
         "gulp-util": "^3.0.8",
-        "prettier-eslint": "^8.2.2",
+        "prettier-eslint": "^9.0.0",
         "through2": "^3.0.0",
         "vinyl-sourcemaps-apply": "^0.2.1"
     },
