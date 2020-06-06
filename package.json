@@ -31,7 +31,7 @@
     "dependencies": {
         "gulp-util": "^3.0.8",
         "prettier-eslint": "^8.2.2",
-        "through2": "^3.0.0",
+        "through2": "^3.0.1",
         "vinyl-sourcemaps-apply": "^0.2.1"
     },
     "devDependencies": {
