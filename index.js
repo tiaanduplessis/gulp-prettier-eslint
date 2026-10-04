@@ -13,7 +13,7 @@ function gulpPrettierEslint (opts = {}) {
     }
 
     if (file.isStream()) {
-      return callback(
+      return cb(
         new PluginError('gulp-prettier-eslint', 'Streaming not supported')
       )
     }
@@ -24,7 +24,7 @@ function gulpPrettierEslint (opts = {}) {
     try {
       result = format(Object.assign(opts, { text }))
     } catch (error) {
-      return callback(new PluginError('gulp-prettier-eslint', error))
+      return cb(new PluginError('gulp-prettier-eslint', error))
     }
 
     if (result && result.v3SourceMap && file.sourceMap) {
